@@ -21,3 +21,5 @@ function LetterChanges(str) {
           
        newArray.push(letr);
         }
+        
+      } 
