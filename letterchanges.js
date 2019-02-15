@@ -13,3 +13,5 @@ function LetterChanges(str) {
     var letr = letters[letters.indexOf(str[i])+1];
          
     if (letr == "a" | letr == "e" | letr == "i" | letr == "o"| letr == "u"){
+
+       newArray.push(letr.toUpperCase());
