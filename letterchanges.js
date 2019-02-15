@@ -22,4 +22,11 @@ function LetterChanges(str) {
        newArray.push(letr);
         }
         
-      } 
+       } 
+    
+    
+      }
+
+  
+    str = newArray.join("");
+      return str; 
