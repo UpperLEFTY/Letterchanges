@@ -8,6 +8,8 @@ function LetterChanges(str) {
     if(letters.indexOf(str[i]) == -1){
          newArray.push(str[i]);
       
-       } else {
+      } else {
          
-     var letr = letters[letters.indexOf(str[i])+1];
+    var letr = letters[letters.indexOf(str[i])+1];
+         
+    if (letr == "a" | letr == "e" | letr == "i" | letr == "o"| letr == "u"){
