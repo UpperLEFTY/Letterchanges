@@ -7,3 +7,7 @@ function LetterChanges(str) {
   
     if(letters.indexOf(str[i]) == -1){
          newArray.push(str[i]);
+      
+       } else {
+         
+     var letr = letters[letters.indexOf(str[i])+1];
