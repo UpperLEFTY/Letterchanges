@@ -15,3 +15,9 @@ function LetterChanges(str) {
     if (letr == "a" | letr == "e" | letr == "i" | letr == "o"| letr == "u"){
 
        newArray.push(letr.toUpperCase());
+      
+        } else {
+          
+          
+       newArray.push(letr);
+        }
